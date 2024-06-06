@@ -1,0 +1,6 @@
+version: '3'
+services:
+  web:
+    image: techamror007/node-hello:latest
+    ports:
+      - "3000:3000"
