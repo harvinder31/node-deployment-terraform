@@ -31,3 +31,10 @@ const server = http.createServer((req, res) => {
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
+## Final Steps
+Ensure you have created the necessary secrets in your GitHub repository:
+
+- DOCKER_USERNAME
+- DOCKER_PASSWORD
+- AWS_ACCESS_KEY_ID
+- AWS_SECRET_ACCESS_KEY
